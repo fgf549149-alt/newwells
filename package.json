@@ -1,10 +1,12 @@
 {
-  "name": "newells",
+  "name": "newwall",
   "version": "1.0.0",
+  "description": "NewWall Inc. - House Of Exclusive Designer Wallpaper",
   "private": true,
   "scripts": {
-    "dev": "serve -l 3000",
-    "start": "serve -l 3000"
+    "dev": "serve . -l 3000 --no-clipboard",
+    "start": "serve . -l 3000 --no-clipboard",
+    "build": "echo 'Static site ready'"
   },
   "devDependencies": {
     "serve": "^14.2.0"
